@@ -1,0 +1,27 @@
+# --- Environment ---
+.env
+!.env.example
+
+# --- Java backend and offline Python tools ---
+backend/target/
+backend/model-cache/
+ml/.venv/
+__pycache__/
+*.pyc
+
+# --- Node / frontend ---
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# --- ML artifacts (can be large; regenerate from notebooks) ---
+ml/artifacts/*
+!ml/artifacts/.gitkeep
+ml/data/*
+!ml/data/.gitkeep
+!ml/data/*.py
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
+*.log

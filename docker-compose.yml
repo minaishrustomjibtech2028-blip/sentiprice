@@ -1,0 +1,74 @@
+services:
+  db:
+    image: postgres:16
+    container_name: sentiprice-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-sentiprice}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-sentiprice_dev}
+      POSTGRES_DB: ${POSTGRES_DB:-sentiprice_db}
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - sentiprice_pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-sentiprice} -d ${POSTGRES_DB:-sentiprice_db}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: sentiprice-backend
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-sentiprice}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-sentiprice_dev}
+      POSTGRES_HOST: db
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: ${POSTGRES_DB:-sentiprice_db}
+      JWT_SECRET_KEY: ${JWT_SECRET_KEY:-dev-secret-change-in-production}
+      PRESENTATION_ACCOUNTS: ${PRESENTATION_ACCOUNTS:-false}
+      ADMIN_EMAIL: ${ADMIN_EMAIL:-admin@sentiprice.ai}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:-}
+      ENVIRONMENT: development
+      NLP_CACHE: /app/model-cache
+      DJL_CACHE_DIR: /app/model-cache/djl
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - ./backend/uploads:/app/uploads
+      - sentiprice_hf_cache:/app/model-cache
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: sentiprice-frontend
+    restart: unless-stopped
+    environment:
+      VITE_PRESENTATION_ACCOUNTS: ${PRESENTATION_ACCOUNTS:-false}
+      VITE_API_BASE_URL: http://localhost:8000
+    ports:
+      - "127.0.0.1:5173:5173"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules   # anonymous volume so container's node_modules isn't shadowed by host bind mount
+    depends_on:
+      backend:
+        condition: service_healthy
+
+volumes:
+  sentiprice_pg_data:
+  sentiprice_hf_cache:

@@ -1,0 +1,23 @@
+# Project category -> Amazon dataset category_name(s). Each Amazon category is used by at most one project category.
+MAP = {
+ "Electronics": ["Computers & Tablets","Computer Monitors","Televisions & Video Products","Headphones & Earbuds","Portable Audio & Video","Camera & Photo","Wearable Technology","Computer Components","Laptop Accessories","Home Audio & Theater Products","GPS & Navigation"],
+ "Fashion & Apparel": ["Men's Clothing","Women's Clothing","Men's Shoes","Women's Shoes","Men's Accessories","Women's Accessories"],
+ "Beauty & Makeup": ["Makeup","Skin Care Products","Hair Care Products","Perfumes & Fragrances","Beauty Tools & Accessories","Foot, Hand & Nail Care Products"],
+ "Home & Kitchen": ["Kitchen & Dining","Bedding","Home Décor Products","Bath Products","Home Storage & Organization"],
+ "Groceries & Gourmet": [],
+ "Sports & Fitness": ["Sports & Fitness","Sports & Outdoors","Outdoor Recreation","Sports Nutrition Products"],
+ "Books & Stationery": ["Stationery & Gift Wrapping Supplies"],
+ "Toys & Games": ["Toys & Games","Building Toys","Learning & Education Toys","Puzzles","Stuffed Animals & Plush Toys","Games & Accessories","Toy Figures & Playsets"],
+ "Furniture": ["Furniture","Kids' Furniture","Nursery Furniture, Bedding & Décor"],
+ "Automotive": ["Automotive Tools & Equipment","Automotive Replacement Parts","Car Care","Oils & Fluids","Automotive Tires & Wheels","Automotive Interior Accessories","Automotive Exterior Accessories","Car Electronics & Accessories","Lights, Bulbs & Indicators","Automotive Performance Parts & Accessories"],
+ "Mobile Accessories": ["Cell Phones & Accessories","Tablet Accessories"],
+ "Health & Wellness": ["Health Care Products","Wellness & Relaxation Products","Oral Care Products","Health & Household"],
+ "Jewelry & Watches": ["Women's Jewelry","Men's Watches","Women's Watches","Girls' Jewelry","Girls' Watches","Boys' Watches","Boys' Jewelry"],
+ "Pet Supplies": ["Dog Supplies","Cat Supplies","Pet Bird Supplies","Fish & Aquatic Pets","Small Animal Supplies","Reptiles & Amphibian Supplies","Horse Supplies"],
+ "Baby & Kids": ["Baby Diapering Products","Baby & Toddler Feeding Supplies","Baby Care Products","Baby Girls' Clothing & Shoes","Baby Boys' Clothing & Shoes","Baby Strollers & Accessories","Baby Travel Gear"],
+ "Office Supplies": ["Office Electronics","Packaging & Shipping Supplies"],
+ "Garden & Outdoor": ["Smart Home: Lawn and Garden"],
+ "Musical Instruments": [],
+ "Luggage & Travel Gear": ["Luggage","Suitcases","Luggage Sets","Backpacks","Travel Duffel Bags","Travel Accessories","Messenger Bags","Travel Tote Bags","Laptop Bags","Garment Bags","Rain Umbrellas"],
+ "Video Games & Consoles": ["Video Games","Video Game Consoles & Accessories","Nintendo Switch Consoles, Games & Accessories","PlayStation 5 Consoles, Games & Accessories","Xbox Series X & S Consoles, Games & Accessories","PC Games & Accessories"],
+}

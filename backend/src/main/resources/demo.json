@@ -1,0 +1,526 @@
+{
+  "products": [
+    [
+      "Nimbus 15 Pro Laptop",
+      "Electronics",
+      "899.00",
+      "849.00",
+      [
+        "15.6-inch 2K display with 100% sRGB colour",
+        "12-core processor, 16 GB RAM, 512 GB NVMe SSD",
+        "Up to 14 hours of battery life with fast charging",
+        "Aluminium unibody, 1.6 kg"
+      ]
+    ],
+    [
+      "Aurora 4K Smart TV 55\"",
+      "Electronics",
+      "549.00",
+      "549.00",
+      [
+        "55-inch 4K UHD panel with HDR10+",
+        "Built-in streaming apps and voice remote",
+        "Three HDMI 2.1 ports for consoles",
+        "Ultra-slim bezels"
+      ]
+    ],
+    [
+      "Linen Blend Summer Shirt",
+      "Fashion & Apparel",
+      "39.00",
+      "34.00",
+      [
+        "Breathable linen-cotton blend",
+        "Relaxed regular fit, button-down collar",
+        "Machine washable",
+        "Available in six colours"
+      ]
+    ],
+    [
+      "Trailblazer Waterproof Jacket",
+      "Fashion & Apparel",
+      "119.00",
+      "119.00",
+      [
+        "3-layer waterproof, windproof shell",
+        "Taped seams and adjustable hood",
+        "Packs into its own pocket",
+        "Reflective details"
+      ]
+    ],
+    [
+      "Radiance Vitamin C Serum",
+      "Beauty & Makeup",
+      "28.00",
+      "24.00",
+      [
+        "15% vitamin C with hyaluronic acid",
+        "Brightens and evens skin tone",
+        "Fragrance-free, dermatologist tested",
+        "30 ml dropper bottle"
+      ]
+    ],
+    [
+      "Velvet Matte Lipstick Set",
+      "Beauty & Makeup",
+      "32.00",
+      "32.00",
+      [
+        "Set of six long-wear matte shades",
+        "Enriched with vitamin E",
+        "Smudge-proof for up to 8 hours",
+        "Cruelty free"
+      ]
+    ],
+    [
+      "BrewMaster Espresso Machine",
+      "Home & Kitchen",
+      "249.00",
+      "219.00",
+      [
+        "15-bar pump pressure for rich crema",
+        "Steam wand for milk frothing",
+        "1.5 L removable water tank",
+        "Auto-shutoff for safety"
+      ]
+    ],
+    [
+      "Chef's Choice Knife Block Set",
+      "Home & Kitchen",
+      "89.00",
+      "89.00",
+      [
+        "Eight-piece German steel knife set",
+        "Full-tang ergonomic handles",
+        "Hardwood block with built-in sharpener",
+        "Dishwasher-safe blades"
+      ]
+    ],
+    [
+      "Himalayan Single-Origin Coffee Beans 1kg",
+      "Groceries & Gourmet",
+      "24.00",
+      "21.00",
+      [
+        "Medium roast with notes of cocoa and citrus",
+        "100% Arabica, ethically sourced",
+        "Freshly roasted in small batches",
+        "Resealable valve bag"
+      ]
+    ],
+    [
+      "Artisan Dark Chocolate Box",
+      "Groceries & Gourmet",
+      "18.00",
+      "18.00",
+      [
+        "Assorted 70% cacao pralines",
+        "No artificial flavours",
+        "Gift-ready packaging",
+        "24 pieces"
+      ]
+    ],
+    [
+      "FlexGrip Adjustable Dumbbell Pair",
+      "Sports & Fitness",
+      "179.00",
+      "159.00",
+      [
+        "Adjusts from 2.5 kg to 24 kg per hand",
+        "Quick-change dial mechanism",
+        "Anti-slip textured grip",
+        "Space-saving storage tray"
+      ]
+    ],
+    [
+      "ProRun Trail Running Shoes",
+      "Sports & Fitness",
+      "94.00",
+      "94.00",
+      [
+        "Aggressive lugs for wet and dry trails",
+        "Rock plate underfoot protection",
+        "Breathable engineered mesh",
+        "Cushioned midsole"
+      ]
+    ],
+    [
+      "The Pragmatic Programmer (20th Anniv.)",
+      "Books & Stationery",
+      "44.00",
+      "39.00",
+      [
+        "Classic guide to software craftsmanship",
+        "Practical tips for every stage of a career",
+        "Hardcover edition",
+        "352 pages"
+      ]
+    ],
+    [
+      "Dot-Grid Hardcover Notebook 3-Pack",
+      "Books & Stationery",
+      "21.00",
+      "21.00",
+      [
+        "120 gsm ink-friendly paper",
+        "Lay-flat binding with ribbon marker",
+        "A5 size",
+        "Inner pocket for loose notes"
+      ]
+    ],
+    [
+      "BuildIt 1200-Piece Brick Castle",
+      "Toys & Games",
+      "69.00",
+      "59.00",
+      [
+        "1,200 compatible bricks with 6 minifigures",
+        "Illustrated step-by-step manual",
+        "Recommended for ages 8+",
+        "Sturdy storage box"
+      ]
+    ],
+    [
+      "Strategy Quest Board Game",
+      "Toys & Games",
+      "42.00",
+      "42.00",
+      [
+        "2-5 players, 60-minute play time",
+        "Beautifully illustrated components",
+        "Easy to learn, deep to master",
+        "Ages 12+"
+      ]
+    ],
+    [
+      "Nordic Oak Accent Chair",
+      "Furniture",
+      "229.00",
+      "199.00",
+      [
+        "Solid oak legs with upholstered seat",
+        "Ergonomic curved backrest",
+        "Easy tool-free assembly",
+        "Supports up to 130 kg"
+      ]
+    ],
+    [
+      "Ergo Standing Desk 140cm",
+      "Furniture",
+      "459.00",
+      "459.00",
+      [
+        "Dual-motor electric height adjustment",
+        "4 programmable memory presets",
+        "Cable management tray",
+        "Anti-collision safety system"
+      ]
+    ],
+    [
+      "DriveSafe 4K Dash Camera",
+      "Automotive",
+      "119.00",
+      "99.00",
+      [
+        "4K front camera with night vision",
+        "Loop recording and G-sensor lock",
+        "Wi-Fi app for instant clip sharing",
+        "Parking monitor mode"
+      ]
+    ],
+    [
+      "TurboClean Car Vacuum Cleaner",
+      "Automotive",
+      "49.00",
+      "49.00",
+      [
+        "Powerful 9000 Pa suction",
+        "Includes crevice and brush tools",
+        "HEPA filter, washable",
+        "5 m power cord"
+      ]
+    ],
+    [
+      "Zenith Fast Wireless Charger Stand",
+      "Mobile Accessories",
+      "35.00",
+      "29.00",
+      [
+        "15 W Qi fast charging",
+        "Case-friendly up to 5 mm",
+        "Two-orientation stand for video calls",
+        "Overheat protection"
+      ]
+    ],
+    [
+      "ArmorShield Phone Case & Screen Guard",
+      "Mobile Accessories",
+      "22.00",
+      "22.00",
+      [
+        "Military-grade drop protection",
+        "Raised camera bezel",
+        "Includes 2 tempered-glass screen guards",
+        "Wireless-charging compatible"
+      ]
+    ],
+    [
+      "VitaBoost Daily Multivitamin",
+      "Health & Wellness",
+      "26.00",
+      "23.00",
+      [
+        "Essential vitamins and minerals in one tablet",
+        "90-day supply",
+        "Vegetarian friendly",
+        "Third-party lab tested"
+      ]
+    ],
+    [
+      "ZenFlow Yoga Mat 6mm",
+      "Health & Wellness",
+      "38.00",
+      "38.00",
+      [
+        "Non-slip, eco-friendly TPE",
+        "6 mm cushioning for joints",
+        "Carry strap included",
+        "183 x 61 cm"
+      ]
+    ],
+    [
+      "Meridian Automatic Watch",
+      "Jewelry & Watches",
+      "329.00",
+      "289.00",
+      [
+        "Self-winding mechanical movement",
+        "Sapphire crystal with exhibition case back",
+        "Genuine leather strap",
+        "50 m water resistance"
+      ]
+    ],
+    [
+      "Solstice Sterling Silver Necklace",
+      "Jewelry & Watches",
+      "78.00",
+      "78.00",
+      [
+        "925 sterling silver pendant",
+        "45 cm adjustable chain",
+        "Hypoallergenic finish",
+        "Presented in a gift box"
+      ]
+    ],
+    [
+      "PawPlay Interactive Cat Tunnel",
+      "Pet Supplies",
+      "27.00",
+      "24.00",
+      [
+        "Collapsible 3-way crinkle tunnel",
+        "Peek-a-boo holes and dangling toy",
+        "Folds flat for storage",
+        "Suitable for cats and small dogs"
+      ]
+    ],
+    [
+      "CozyPaws Orthopedic Dog Bed",
+      "Pet Supplies",
+      "64.00",
+      "64.00",
+      [
+        "Memory foam supports joints",
+        "Removable, machine-washable cover",
+        "Non-slip base",
+        "Available in three sizes"
+      ]
+    ],
+    [
+      "TinyDreamer Organic Cotton Onesies 5-Pack",
+      "Baby & Kids",
+      "34.00",
+      "29.00",
+      [
+        "GOTS-certified organic cotton",
+        "Envelope neckline for easy changing",
+        "Nickel-free snaps",
+        "0-12 months"
+      ]
+    ],
+    [
+      "SafeRide Convertible Car Seat",
+      "Baby & Kids",
+      "219.00",
+      "219.00",
+      [
+        "Rear- and forward-facing use from birth",
+        "Side-impact protection",
+        "5-point adjustable harness",
+        "Washable cover"
+      ]
+    ],
+    [
+      "Ergo Mesh Office Chair",
+      "Office Supplies",
+      "189.00",
+      "169.00",
+      [
+        "Breathable mesh back with lumbar support",
+        "Adjustable armrests and headrest",
+        "Tilt-lock mechanism",
+        "Silent casters"
+      ]
+    ],
+    [
+      "Precision Laser Printer Toner Twin Pack",
+      "Office Supplies",
+      "72.00",
+      "72.00",
+      [
+        "High-yield black toner, 2 x 3000 pages",
+        "Compatible with major laser printers",
+        "Sharp, smudge-free text",
+        "Easy install"
+      ]
+    ],
+    [
+      "Terra Cast-Iron Fire Pit",
+      "Garden & Outdoor",
+      "99.00",
+      "89.00",
+      [
+        "Heavy-duty cast iron, 76 cm bowl",
+        "Spark screen and poker included",
+        "Rust-resistant finish",
+        "Simple assembly"
+      ]
+    ],
+    [
+      "BloomGrow Raised Garden Bed Kit",
+      "Garden & Outdoor",
+      "84.00",
+      "84.00",
+      [
+        "Cedar raised bed, 120 x 60 cm",
+        "Tool-free interlocking panels",
+        "Rot-resistant, food-safe",
+        "Deep 30 cm root space"
+      ]
+    ],
+    [
+      "Harmony Acoustic Guitar Starter Pack",
+      "Musical Instruments",
+      "159.00",
+      "139.00",
+      [
+        "Full-size dreadnought with spruce top",
+        "Includes gig bag, tuner, picks and strap",
+        "Low-action neck for beginners",
+        "Satin finish"
+      ]
+    ],
+    [
+      "BeatPad 25-Key USB MIDI Keyboard",
+      "Musical Instruments",
+      "89.00",
+      "89.00",
+      [
+        "25 velocity-sensitive keys",
+        "8 backlit drum pads and 8 knobs",
+        "Plug-and-play USB power",
+        "Includes music production software"
+      ]
+    ],
+    [
+      "VoyagerPro 28\" Hardshell Suitcase",
+      "Luggage & Travel Gear",
+      "139.00",
+      "119.00",
+      [
+        "Scratch-resistant polycarbonate shell",
+        "Silent 360° spinner wheels",
+        "TSA-approved combination lock",
+        "Expandable main compartment"
+      ]
+    ],
+    [
+      "Nomad Carry-On Travel Backpack 40L",
+      "Luggage & Travel Gear",
+      "109.00",
+      "109.00",
+      [
+        "Airline-compliant carry-on size",
+        "Clamshell opening with compression straps",
+        "Padded 16-inch laptop sleeve",
+        "Water-resistant fabric"
+      ]
+    ],
+    [
+      "Nova Wireless Game Controller",
+      "Video Games & Consoles",
+      "64.00",
+      "59.00",
+      [
+        "Hall-effect sticks resist drift",
+        "40-hour battery life",
+        "Programmable back buttons",
+        "Works with PC and consoles"
+      ]
+    ],
+    [
+      "PixelForge Gaming Headset 7.1",
+      "Video Games & Consoles",
+      "79.00",
+      "79.00",
+      [
+        "7.1 virtual surround sound",
+        "Detachable noise-cancelling mic",
+        "Memory-foam ear cushions",
+        "Multi-platform compatible"
+      ]
+    ]
+  ],
+  "review_pool": [
+    [
+      5,
+      "Absolutely love it. The build quality is excellent and it looks great, but the price was a bit high."
+    ],
+    [
+      5,
+      "Delivery was fast and the packaging was perfect. Really easy to set up and works exactly as described."
+    ],
+    [
+      4,
+      "Good value for the money. The design is nice and it feels sturdy, though the instructions could be clearer."
+    ],
+    [
+      2,
+      "The quality is disappointing. It broke after two weeks and customer service was slow to respond."
+    ],
+    [
+      1,
+      "Terrible experience. The battery barely charges and it feels flimsy. Not worth the price at all."
+    ],
+    [
+      3,
+      "It's okay. Comfortable enough, but the size runs small and the color is different from the photos."
+    ],
+    [
+      5,
+      "Best product ever!!! Amazing!!! Perfect!!! Buy now!!! Five stars!!!"
+    ],
+    [
+      4,
+      "Solid purchase. Shipping was quick, quality is good, and support answered my questions right away."
+    ],
+    [
+      2,
+      "Arrived late and the packaging was damaged. The product itself works but the sound is poor."
+    ],
+    [
+      5,
+      "Super comfortable and looks stylish. Great value, I would happily buy it again."
+    ]
+  ]
+}

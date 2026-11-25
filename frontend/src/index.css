@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: Arial, "Helvetica Neue", Helvetica, ui-sans-serif, system-ui, sans-serif;
+
+  --color-amz-navy: #131921;
+  --color-amz-navy2: #232f3e;
+  --color-amz-navy3: #37475a;
+  --color-amz-orange: #ff9900;
+  --color-amz-yellow: #ffd814;
+  --color-amz-buy: #ffa41c;
+  --color-amz-link: #007185;
+  --color-amz-hover: #c7511f;
+  --color-amz-price: #b12704;
+  --color-amz-star: #ffa41c;
+  --color-amz-bg: #eaeded;
+  --color-amz-border: #d5d9d9;
+  --color-amz-muted: #565959;
+  --color-amz-green: #007600;
+  --color-amz-red: #cc0c39;
+  --color-amz-soft: #f0f2f2;
+}
+
+html, body, #root { min-height: 100%; }
+body { margin: 0; background: var(--color-amz-bg); color: #0f1111; font-size: 14px; }
+a { color: inherit; text-decoration: none; }
+.amz-link { color: var(--color-amz-link); }
+.amz-link:hover { color: var(--color-amz-hover); text-decoration: underline; }
+
+@layer components {
+  .amz-input {
+    width: 100%; background: #fff; border: 1px solid #888c8c; border-top-color: #767676;
+    border-radius: 3px; padding: 7px 10px; font-size: 14px; outline: none;
+    box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset;
+  }
+  .amz-input:focus { border-color: #e77600; box-shadow: 0 0 0 3px rgba(228,121,17,.35); }
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; border-radius: 999px;
+    padding: 7px 16px; font-size: 13px; cursor: pointer; transition: filter .15s; border: 1px solid; }
+  .btn:disabled { opacity: .55; cursor: not-allowed; }
+  .btn-yellow { background: #ffd814; border-color: #fcd200; color: #0f1111; }
+  .btn-yellow:hover:not(:disabled) { background: #f7ca00; }
+  .btn-orange { background: #ffa41c; border-color: #ff8f00; color: #0f1111; }
+  .btn-orange:hover:not(:disabled) { background: #fa8900; }
+  .btn-light { background: #fff; border-color: #d5d9d9; color: #0f1111; box-shadow: 0 2px 5px rgba(213,217,217,.5); }
+  .btn-light:hover:not(:disabled) { background: #f7fafa; }
+  .btn-danger { background: #fff; border-color: #d5d9d9; color: #cc0c39; }
+  .btn-danger:hover:not(:disabled) { background: #fff5f5; }
+  .card { background: #fff; border: 1px solid var(--color-amz-border); border-radius: 8px; }
+  .skeleton { background: linear-gradient(90deg,#eee 25%,#f7f7f7 37%,#eee 63%); background-size: 400% 100%;
+    animation: shimmer 1.4s ease infinite; border-radius: 6px; }
+}
+@keyframes shimmer { 0% { background-position: 100% 50%; } 100% { background-position: 0 50%; } }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
